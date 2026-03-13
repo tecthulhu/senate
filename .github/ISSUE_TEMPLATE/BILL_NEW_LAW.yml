@@ -1,0 +1,53 @@
+name: "New Law Proposal"
+description: "Propose a new law for the senate"
+title: "[BILL-NEW] "
+labels: ["bill", "new-law", "needs-triage"]
+body:
+  - type: input
+    id: proposed_law_id
+    attributes:
+      label: Proposed Law ID
+      description: "The proposed LAW-NNN identifier"
+      placeholder: "LAW-013"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Law Title
+      description: "A concise title for the proposed law"
+      placeholder: "Dependency Update Policy"
+    validations:
+      required: true
+  - type: input
+    id: sponsor
+    attributes:
+      label: Sponsor
+      description: "The constituent project sponsoring this bill"
+      placeholder: "kescott027/netdata"
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: Full Law Text
+      description: "The complete text of the proposed law, including all sections"
+      placeholder: "Write the full law text here..."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: "Why is this law needed? What gap does it address?"
+      placeholder: "Explain the governance gap or need..."
+    validations:
+      required: true
+  - type: textarea
+    id: impact_assessment
+    attributes:
+      label: Impact Assessment
+      description: "How will this law affect constituent projects?"
+      placeholder: "Describe the expected impact on existing projects..."
+    validations:
+      required: true

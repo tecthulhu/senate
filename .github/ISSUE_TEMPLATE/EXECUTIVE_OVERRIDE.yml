@@ -1,0 +1,42 @@
+name: "Executive Override"
+description: "Record an executive override action"
+title: "[EXECUTIVE] "
+labels: ["executive", "override"]
+body:
+  - type: dropdown
+    id: action
+    attributes:
+      label: Action
+      description: "The type of executive action"
+      options:
+        - enact
+        - repeal
+        - veto
+        - suspend
+        - amend
+    validations:
+      required: true
+  - type: input
+    id: target_law
+    attributes:
+      label: Target Law
+      description: "The LAW-NNN identifier (if applicable)"
+      placeholder: "LAW-003 or leave blank for new enactments"
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: "Explanation for the executive override"
+      placeholder: "Explain the rationale for this executive action..."
+    validations:
+      required: true
+  - type: input
+    id: expires
+    attributes:
+      label: Expires
+      description: "Expiry date for temporary actions (YYYY-MM-DD), leave blank if permanent"
+      placeholder: "2026-06-13"
+    validations:
+      required: false

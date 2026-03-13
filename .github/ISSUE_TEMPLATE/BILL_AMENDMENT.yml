@@ -1,0 +1,45 @@
+name: "Law Amendment Proposal"
+description: "Propose changes to an existing senate law"
+title: "[BILL-AMEND] "
+labels: ["bill", "amendment", "needs-triage"]
+body:
+  - type: input
+    id: target_law
+    attributes:
+      label: Target Law
+      description: "The LAW-NNN identifier of the law to amend"
+      placeholder: "LAW-003"
+    validations:
+      required: true
+  - type: input
+    id: sponsor
+    attributes:
+      label: Sponsor
+      description: "The constituent project sponsoring this amendment"
+      placeholder: "kescott027/netdata"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed Changes
+      description: "Describe the specific changes to the law. Include before/after text where possible."
+      placeholder: "Detail the proposed changes..."
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: "Why are these changes needed?"
+      placeholder: "Explain the reason for the amendment..."
+    validations:
+      required: true
+  - type: textarea
+    id: impact_assessment
+    attributes:
+      label: Impact Assessment
+      description: "How will this amendment affect constituent projects?"
+      placeholder: "Describe the expected impact..."
+    validations:
+      required: true

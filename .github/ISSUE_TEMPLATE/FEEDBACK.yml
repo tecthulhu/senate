@@ -1,0 +1,51 @@
+name: "Feedback"
+description: "Provide feedback on a law, bill, or governance process"
+title: "[FEEDBACK] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: regarding
+    attributes:
+      label: Regarding
+      description: "What is this feedback about?"
+      options:
+        - Specific law
+        - Bill under review
+        - General process
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Reference
+      description: "LAW-NNN identifier or issue number"
+      placeholder: "LAW-003 or #42"
+    validations:
+      required: true
+  - type: input
+    id: from_project
+    attributes:
+      label: From Project
+      description: "The constituent project providing this feedback"
+      placeholder: "kescott027/netdata"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback_body
+    attributes:
+      label: Feedback
+      description: "Your detailed feedback"
+      placeholder: "Describe your feedback, concerns, or observations..."
+    validations:
+      required: true
+  - type: dropdown
+    id: suggested_action
+    attributes:
+      label: Suggested Action
+      description: "What action do you recommend?"
+      options:
+        - No action needed
+        - Consider amendment
+        - Urgent review
+    validations:
+      required: true
