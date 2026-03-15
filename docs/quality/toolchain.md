@@ -5,6 +5,7 @@ This repo enforces a baseline toolchain for linting, formatting, code quality, a
 ## CI Gates (Required)
 
 - **Integrity Check**: `integrity-check.yml` verifies `bootstrap/integrity.json` integrity.
+- **Manifest Hash Check**: `integrity-check.yml` runs `scripts/verify_manifest_hashes.py` to ensure law hashes match `sync/manifest.json`.
 - **CodeQL**: `codeql.yml` scans GitHub Actions workflows.
 - **Quality Gates**: `quality-gates.yml` enforces:
   - `actionlint` on `.github/workflows/`

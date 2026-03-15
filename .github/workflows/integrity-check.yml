@@ -40,6 +40,9 @@ jobs:
       - name: Verify integrity manifest
         run: ./bootstrap/regenerate-integrity.sh --check-only
 
+      - name: Verify manifest law hashes
+        run: python3 scripts/verify_manifest_hashes.py
+
   auto-regenerate:
     runs-on: ubuntu-latest
     needs: verify-integrity
