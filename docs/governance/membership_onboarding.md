@@ -23,12 +23,16 @@ Add a block under "Active Constituents" or "Pending Constituents":
   delegate: <name or ai-agent>
 ```
 
+The `repo` field is the canonical project identity used in votes. Use the exact `org/repo` format.
+
 ## When to Sync Laws and Update `.senate-sync.json`
 
 After membership is approved:
 - Run the law sync process in the member repo to populate `laws/active/`.
 - Create or update `.senate-sync.json` in the member repo to record the synced law hashes.
 - Repeat law sync at sprint start and after any law changes.
+
+Before voting, use `docs/governance/voting_readiness_checklist.md`.
 
 ## Notes
 

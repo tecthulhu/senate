@@ -10,9 +10,9 @@ Document how constituents learn that a vote is open and when it closes.
 Constituents and maintainers benefit from voting notification path.
 
 ## Acceptance criteria
-- [ ] Notification mechanism documented (labels, GitHub watch settings, mention policy).
-- [ ] Timeline expectations are explicit.
-- [ ] Linked from onboarding kit and voting guide.
+- [x] Notification mechanism documented (labels, GitHub watch settings, mention policy).
+- [x] Timeline expectations are explicit.
+- [x] Linked from onboarding kit and voting guide.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,12 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_lifecycle.md`
+- `docs/governance/voting_onboarding_kit.md`

@@ -10,9 +10,9 @@ Provide a minimal, fast-path onboarding kit so a new constituent can vote quickl
 Constituents and maintainers benefit from constituent onboarding kit (voting-ready).
 
 ## Acceptance criteria
-- [ ] Kit includes: onboarding steps, sync checklist, vote format example, and “first vote” walkthrough.
-- [ ] Kit is linked from README and/or `MEMBERSHIP.md`.
-- [ ] Kit explicitly states prerequisites for voting.
+- [x] Kit includes: onboarding steps, sync checklist, vote format example, and “first vote” walkthrough.
+- [x] Kit is linked from README and/or `MEMBERSHIP.md`.
+- [x] Kit explicitly states prerequisites for voting.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,13 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_onboarding_kit.md`
+- `README.md`
+- `MEMBERSHIP.md`

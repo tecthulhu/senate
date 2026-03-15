@@ -10,9 +10,9 @@ Add a voting readiness gate to the sprint sync protocol.
 Constituents and maintainers benefit from voting eligibility gate in sync protocol.
 
 ## Acceptance criteria
-- [ ] `sync/README.md` and `templates/sprint-sync-checklist.md` include the gate.
-- [ ] Gate uses the voting readiness checklist.
-- [ ] Procedure defines how to remediate missing requirements.
+- [x] `sync/README.md` and `templates/sprint-sync-checklist.md` include the gate.
+- [x] Gate uses the voting readiness checklist.
+- [x] Procedure defines how to remediate missing requirements.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,13 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `sync/README.md`
+- `templates/sprint-sync-checklist.md`
+- `docs/governance/voting_readiness_checklist.md`

@@ -18,9 +18,11 @@ The sprint-sync protocol ensures constituent projects stay up to date with senat
 
 6. **File FEEDBACK for conflicts**: If a downloaded law conflicts with a local law, file a `FEEDBACK` issue on the senate repo explaining the conflict.
 
-7. **Vote on open bills**: For any pending bills in the `voting-open` state, evaluate and post a structured vote comment.
+7. **Verify voting readiness**: Use `docs/governance/voting_readiness_checklist.md`. If not ready, remediate before voting.
 
-8. **Update local sync state**: Update the local `.senate-sync.json` with the new hashes and sync timestamp.
+8. **Vote on open bills**: For any pending bills in the `voting-open` state, evaluate and post a structured vote comment.
+
+9. **Update local sync state**: Update the local `.senate-sync.json` with the new hashes and sync timestamp.
 
 ## Local .senate-sync.json Format
 

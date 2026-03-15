@@ -12,6 +12,12 @@ A bill may enter `voting-open` when:
 - The review window has elapsed (or `emergency` label is applied by the executive).
 - A voting window is posted (start/end timestamps in UTC).
 
+## Notification Path
+
+- Maintainers apply the `voting-open` label and post the voting window in the issue.
+- Constituents should watch the senate repository and filter notifications for `voting-open` issues.
+- When voting closes, maintainers remove `voting-open`, apply `voting-closed`, and post the decision summary.
+
 ## Vote Format (LAW-012)
 
 ```

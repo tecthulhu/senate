@@ -15,6 +15,9 @@ vote: yea | nay | abstain
 reason: <brief justification>
 ```
 
+The `project` field must use the canonical `org/repo` format and match the entry in `MEMBERSHIP.md`.
+Use `docs/governance/voting_readiness_checklist.md` before casting votes.
+
 ## This Directory
 
 This directory stores vote artifacts:
