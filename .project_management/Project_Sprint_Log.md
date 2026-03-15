@@ -33,5 +33,5 @@ Append-only sprint ledger. Add one section per sprint and never reset this file.
 
 ## Sprint-003
 - Start date: 2026-03-15
-- Goal: TBD (planning in progress).
-- Included stories: TBD
+- Goal: Define the core proposal intake and voting workflow, including decision recording and executive override integration.
+- Included stories: STORY-0110, STORY-0111, STORY-0112, STORY-0113, STORY-0114

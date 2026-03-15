@@ -6,23 +6,28 @@ Sprint-003
 
 ## Sprint Goal
 
-TBD (planning in progress).
+Define the core proposal intake and voting workflow, including decision recording and executive override integration.
 
 ## Selected Stories
 
-- None yet
+- STORY-0110 - Define bill intake and triage workflow
+- STORY-0111 - Standardize voting lifecycle and decision recording
+- STORY-0112 - Publish vote tally procedure and archival format
+- STORY-0113 - Update contributor guidance for proposing and voting
+- STORY-0114 - Executive override integration
 
 ## Rationale
 
-Sprint-002 closed; Sprint-003 planning in progress.
+Phase 2 critical path requires a documented law proposal and voting system before automation.
 
 ## Risks
 
-- TBD
+- Governance workflow may need law amendments.
+- Voting artifacts storage location may require new directories or templates.
 
 ## Acceptance Summary
 
-TBD
+Core proposal intake, voting lifecycle, tallying, contributor guidance, and executive override integration documented.
 
 ## Definition of Done Checklist
 

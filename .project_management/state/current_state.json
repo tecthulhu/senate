@@ -1,9 +1,15 @@
 {
   "phase": 0,
   "active_sprint": "Sprint-003",
-  "active_story_ids": [],
+  "active_story_ids": [
+    "STORY-0110",
+    "STORY-0111",
+    "STORY-0112",
+    "STORY-0113",
+    "STORY-0114"
+  ],
   "blocked_story_ids": [],
   "pending_hitl_gate": null,
-  "notes": "Sprint-003 planning in progress.",
-  "last_updated": "2026-03-15T17:40:18Z"
+  "notes": "Sprint-003 active; Phase 2 law proposal and voting system definition in progress.",
+  "last_updated": "2026-03-15T17:55:12Z"
 }

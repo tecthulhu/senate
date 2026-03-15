@@ -1,4 +1,4 @@
-# Sprint 003 — TBD
+# Sprint 003 — Law Proposal + Voting Core
 
 ## Sprint Number
 
@@ -14,11 +14,23 @@ TBD
 
 ## Goal
 
-TBD (planning in progress).
+Define the core proposal intake and voting workflow, including decision recording and executive override integration.
 
 ## Included Stories
 
-- None yet
+- STORY-0110 - Define bill intake and triage workflow
+- STORY-0111 - Standardize voting lifecycle and decision recording
+- STORY-0112 - Publish vote tally procedure and archival format
+- STORY-0113 - Update contributor guidance for proposing and voting
+- STORY-0114 - Executive override integration
+
+## Story Status
+
+- STORY-0110: In progress.
+- STORY-0111: In progress.
+- STORY-0112: In progress.
+- STORY-0113: In progress.
+- STORY-0114: In progress.
 
 ## Files Touched
 
@@ -26,16 +38,16 @@ TBD (planning in progress).
 
 ## Notes (Architecture/Security)
 
-- Architecture notes: TBD
-- Security notes: TBD
+- Architecture notes: Governance workflow documentation and artifact storage.
+- Security notes: Ensure voting workflow does not weaken LAW-004 requirements.
 - Decision matrix references: .project_management/Decision_Matrix.md
 
 ## Test Results
 
-- Unit tests: TBD
-- Integration tests: TBD
-- Load/performance tests: TBD
-- Security checks: TBD
+- Unit tests: N/A (docs)
+- Integration tests: Manual verification of workflow documentation
+- Load/performance tests: N/A
+- Security checks: N/A (docs)
 
 ## Review Summary
 
@@ -46,11 +58,11 @@ TBD (planning in progress).
 
 ## Phase/MVP Progress
 
-- Current phase:
-- Phase goals status (on-track / at-risk / blocked):
-- Critical path status:
-- Phase gate checklist status (if phase-ending):
-- Phase-end report link (if phase-ending):
+- Current phase: Phase 2 (Production readiness)
+- Phase goals status (on-track / at-risk / blocked): TBD
+- Critical path status: Law proposal + voting system definition
+- Phase gate checklist status (if phase-ending): N/A
+- Phase-end report link (if phase-ending): N/A
 
 ## Sprint Review Rating
 
