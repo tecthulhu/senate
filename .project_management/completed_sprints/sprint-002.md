@@ -66,7 +66,7 @@ Harden sprint/phase governance, establish quality toolchain baselines, and produ
 - What was deferred: None
 - Risks discovered: Governance changes pending law adoption; CI lint gates unverified in live runs.
 - Debt introduced/resolved: Resolved governance gaps; deferred enforcement of 90% coverage to phase-end assessment gate.
-- Repo hygiene note: Local main requires fast-forward before stale branch cleanup confirmation.
+- Repo hygiene note: Local main fast-forwarded; stale branch pruned; no PRs opened in this sprint.
 
 ## Phase/MVP Progress
 
@@ -92,8 +92,8 @@ Harden sprint/phase governance, establish quality toolchain baselines, and produ
 - [x] Sprint file moved to `completed_sprints/`.
 - [x] Audit log entry appended.
 - [x] Phase/MVP progress status documented.
-- [ ] All PRs green; no merges before checks complete.
-- [ ] Stale branches pruned; main is clean.
+- [x] All PRs green; no merges before checks complete.
+- [x] Stale branches pruned; main is clean.
 
 ## Retro Notes
 
