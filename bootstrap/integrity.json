@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-03-15T18:14:55Z",
-  "commit_sha": "8a40c192ab2f1458acefc50a28e2d82c1291ac50",
+  "generated_at": "2026-03-15T21:57:20Z",
+  "commit_sha": "6482afb9ce3c72e8bfbfc9a1d34e8b6ac5cab171",
   "algorithm": "sha256",
   "files": {
     "bootstrap/initiator.md": "0eede89cc6e49e444db062370f926e10e13ef44c6165604f054988df479b2309",
     "CONSTITUTION.md": "c94afd672a315b94ff2df887791682c6e5addc6033d0debe6daa580115387e21",
-    "MEMBERSHIP.md": "2f15b210837f2fb9830dcb6a6ebbef10602391e30e3cf3c35231bacb014aa712",
+    "MEMBERSHIP.md": "9f3c7e388774f0811e5872007e0fa5b471e30ee481211ab34d5047687977b5b9",
     "BOOTSTRAP.md": "451b38ea8276414f35b2372e40e488751f6b3954399b96b804e02e82b754d2c8",
     "project_management_bootstrapping.md": "076b82800f5d80d43f39d0f4e4ed8a5c2cf14b2e1cfef503eb45d3be5556ad7d",
     "project_management_bootstrapping_existing.md": "6cc66e6d39a57f3daea241f68a8aa81b2bd980666f4e8326edc9a9f3d5bec1cd",
