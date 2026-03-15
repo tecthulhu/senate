@@ -487,7 +487,7 @@ If `.project_management/` already exists but was created outside the senate fram
 3. **Add missing files** from the skeleton without overwriting existing content.
 4. **Reconcile rules.** Compare existing `rules/` against senate laws per Phase 4.
 5. **Backfill state.** Ensure `current_state.json` accurately reflects the current sprint and story state.
-6. **Sync with senate.** Create `.senate-sync.json` and download current laws.
+6. **Sync with senate.** Create `.senate-sync.json` and download current laws. Use `docs/governance/law_mapping.md` to map senate law filenames to local rule files.
 7. **Log the upgrade.** Create a log entry with `change_type="correct"` documenting the governance upgrade.
 8. **Update AI_ENTRYPOINT.md** to reference senate governance and the sync protocol.
 

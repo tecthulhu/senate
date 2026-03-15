@@ -81,15 +81,7 @@ Retrieve `sync/manifest.json` from `kescott027/senate` (via local clone or GitHu
 
 ### Step 2.2 — Download active laws
 
-For each law in the manifest, download the law file and store it in `.project_management/rules/`. Map senate law files to local rule files:
-
-| Senate law | Local rule file |
-|---|---|
-| `LAW-000_operating-principles.md` | `rules/00_operating-principles.md` |
-| `LAW-001_planning-rules.md` | `rules/01_planning-rules.md` |
-| ... | ... (maintain numbering alignment) |
-| `LAW-011_blocker-management.md` | `rules/BLOCKER_MANAGEMENT_RULES.md` |
-| `LAW-012_bill-submission-process.md` | `rules/12_bill-submission-process.md` |
+For each law in the manifest, download the law file and store it in `.project_management/rules/`. Use the authoritative mapping table in `docs/governance/law_mapping.md` to map senate law files to local rule files.
 
 ### Step 2.3 — Create `.senate-sync.json`
 
