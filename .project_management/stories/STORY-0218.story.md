@@ -50,3 +50,4 @@ Revert rule and bill updates.
 - `project_management_skeleton/Rules.md`
 - `docs/governance/bills/BILL-2026-03-15_amend-law-003_pr-only-main.md`
 - Bill issue: https://github.com/tecthulhu/senate/issues/8
+- PR: https://github.com/tecthulhu/senate/pull/9

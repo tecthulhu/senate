@@ -28,7 +28,7 @@ Phase 2 critical path requires a documented law proposal and voting system befor
 
 ## Blockers
 
-- BLOCKER_2026-03-15_Sprint-003_STORY-0218_GitHubPushPermission.md
+None.
 
 ## Acceptance Summary
 
