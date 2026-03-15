@@ -10,9 +10,9 @@ Define the minimal conditions a constituent must meet before voting.
 Constituents and maintainers benefit from voting readiness checklist.
 
 ## Acceptance criteria
-- [ ] Checklist includes membership entry, law sync status, and `.senate-sync.json` presence.
-- [ ] Checklist is used during sprint sync and onboarding.
-- [ ] Checklist has a single “ready/not ready” outcome.
+- [x] Checklist includes membership entry, law sync status, and `.senate-sync.json` presence.
+- [x] Checklist is used during sprint sync and onboarding.
+- [x] Checklist has a single “ready/not ready” outcome.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,14 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_readiness_checklist.md`
+- `docs/governance/voting_onboarding_kit.md`
+- `sync/README.md`
+- `templates/sprint-sync-checklist.md`

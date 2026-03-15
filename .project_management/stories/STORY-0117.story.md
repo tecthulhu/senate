@@ -10,9 +10,9 @@ Provide a step-by-step example of submitting a valid vote comment.
 Constituents and maintainers benefit from first vote walkthrough.
 
 ## Acceptance criteria
-- [ ] Walkthrough references the correct vote format from LAW-012.
-- [ ] Includes a worked example and how to verify it was counted.
-- [ ] Clearly explains vote timing and labels.
+- [x] Walkthrough references the correct vote format from LAW-012.
+- [x] Includes a worked example and how to verify it was counted.
+- [x] Clearly explains vote timing and labels.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,11 @@ Revert the changes to restore prior governance documentation.
 - Low
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/voting_onboarding_kit.md`

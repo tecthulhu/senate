@@ -33,6 +33,8 @@ The executive (`kescott027`) can also enact, repeal, veto, suspend, or amend any
 - [Constitution](CONSTITUTION.md) -- Foundational governance rules, voting thresholds, and executive powers
 - [Law Index](laws/README.md) -- All active, amended, and repealed laws
 - [Membership](MEMBERSHIP.md) -- Active constituent projects
+- [Voting Onboarding Kit](docs/governance/voting_onboarding_kit.md) -- Fast path to voting readiness
+- [Voting Readiness Checklist](docs/governance/voting_readiness_checklist.md) -- Ready/not-ready gate before voting
 - [Sync Protocol](sync/README.md) -- How constituent projects stay in sync with senate laws
 - [Executive Overrides](executive/README.md) -- How executive override power works
 - [Proposal Intake Workflow](docs/governance/proposal_intake_workflow.md) -- Triage and review process for bills

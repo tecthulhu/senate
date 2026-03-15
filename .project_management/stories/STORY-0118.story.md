@@ -10,9 +10,9 @@ Define the canonical project identifier to use in votes to avoid mismatched nami
 Constituents and maintainers benefit from constituent identity canonicalization.
 
 ## Acceptance criteria
-- [ ] Canonical format is documented (e.g., `org/repo`).
-- [ ] `MEMBERSHIP.md` entries align with the canonical format.
-- [ ] Voting instructions reference the canonical format.
+- [x] Canonical format is documented (e.g., `org/repo`).
+- [x] `MEMBERSHIP.md` entries align with the canonical format.
+- [x] Voting instructions reference the canonical format.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -39,8 +39,13 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/membership_onboarding.md`
+- `votes/README.md`
+- `MEMBERSHIP.md`

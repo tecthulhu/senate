@@ -25,9 +25,26 @@ Enable voting-ready constituent onboarding by defining readiness criteria, notif
 - STORY-0119 - Voting notification path
 - STORY-0124 - Voting eligibility gate in sync protocol
 
+## Story Status
+
+- STORY-0115: Done.
+- STORY-0116: Done.
+- STORY-0117: Done.
+- STORY-0118: Done.
+- STORY-0119: Done.
+- STORY-0124: Done.
+
 ## Files Touched
 
-- TBD (update during sprint)
+- docs/governance/voting_onboarding_kit.md
+- docs/governance/voting_readiness_checklist.md
+- docs/governance/membership_onboarding.md
+- docs/governance/voting_lifecycle.md
+- README.md
+- MEMBERSHIP.md
+- votes/README.md
+- sync/README.md
+- templates/sprint-sync-checklist.md
 
 ## Notes (Architecture/Security)
 
