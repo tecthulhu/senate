@@ -48,6 +48,7 @@ The executive (`kescott027`) can also enact, repeal, veto, suspend, or amend any
 - [Proposal Intake Workflow](docs/governance/proposal_intake_workflow.md) -- Triage and review process for bills
 - [Voting Lifecycle](docs/governance/voting_lifecycle.md) -- Voting, tally, and decision recording
 - [Contributor Guide](docs/governance/contributor_guide.md) -- How to propose and vote
+- [Self-Audit Scope](docs/governance/self_audit_scope.md) -- Signals and safety gates for governance self-audits
 
 ## Proposing a Bill
 

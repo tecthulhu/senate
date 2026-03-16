@@ -20,9 +20,14 @@ Define self-audit scope and signals for governance gap detection, including bill
 
 - STORY-0210 - Define self-audit scope and signals
 
+## Story Status
+
+- STORY-0210: Done.
+
 ## Files Touched
 
-- TBD
+- docs/governance/self_audit_scope.md
+- README.md
 
 ## Notes (Architecture/Security)
 
@@ -35,14 +40,14 @@ Define self-audit scope and signals for governance gap detection, including bill
 - Unit tests: N/A (docs/process)
 - Integration tests: Manual verification of referenced files/steps
 - Load/performance tests: N/A
-- Security checks: N/A (documentation)
+- Security checks: Pending CI (docs-only change)
 
 ## Review Summary
 
-- What was completed: TBD
-- What was deferred: TBD
-- Risks discovered: TBD
-- Debt introduced/resolved: TBD
+- What was completed: STORY-0210 self-audit scope and signal catalog.
+- What was deferred: None.
+- Risks discovered: Ensure future bill proposals enforce HITL gates.
+- Debt introduced/resolved: No new debt introduced.
 
 ## Phase/MVP Progress
 
