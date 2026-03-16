@@ -10,9 +10,9 @@ Specify what the system should analyze to detect governance gaps and improvement
 Constituents and maintainers benefit from define self-audit scope and signals.
 
 ## Acceptance criteria
-- [ ] A checklist or spec enumerates signals (missing docs, stale laws, conflicts, process gaps).
-- [ ] Each signal maps to a bill type (new law, amendment, repeal, feedback).
-- [ ] Safety constraints and HITL gates are explicit.
+- [x] A checklist or spec enumerates signals (missing docs, stale laws, conflicts, process gaps).
+- [x] Each signal maps to a bill type (new law, amendment, repeal, feedback).
+- [x] Safety constraints and HITL gates are explicit.
 
 ## Non-functional requirements
 - Security: No secret leakage; follow LAW-004 for token handling.
@@ -20,7 +20,7 @@ Constituents and maintainers benefit from define self-audit scope and signals.
 - Performance: N/A (documentation/process).
 
 ## Implementation notes
-See BOOTSTRAP_SENATE.md for detailed context and acceptance criteria.
+Published a self-audit scope doc with signal catalog, bill mapping rules, and HITL gates.
 
 ## Test plan
 - Unit: N/A (docs/process)
@@ -39,8 +39,12 @@ Revert the changes to restore prior governance documentation.
 - Medium
 
 ## Definition of Done checklist
-- [ ] AC met
-- [ ] Tests added + passing
-- [ ] Lint/format/type checks pass
-- [ ] Security checks pass
-- [ ] Docs updated
+- [x] AC met
+- [x] Tests added + passing (N/A — docs)
+- [x] Lint/format/type checks pass (N/A — docs)
+- [x] Security checks pass (N/A — docs)
+- [x] Docs updated
+
+## Evidence
+- `docs/governance/self_audit_scope.md`
+- `README.md` (Quick Links)
